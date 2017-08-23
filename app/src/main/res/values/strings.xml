@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pulse Tracker</string>
+
+    <!-- Login content -->
+    <string name="sign_in_text">Sign-IN</string>
+    <string name="sign_out_text">Sign-OUT</string>
+    <string name="sign_in_with_text">Sign-IN with</string>
+    <string name="first_name">First Name</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_up">Never here? Sign-Up</string>
+    <string name="second_name">Second Name</string>
+    <string name="email_text">E-MAIL</string>
+    <string name="password_text">Password</string>
+    <string name="create_one_text">Create One?</string>
+    <string name="google_text">Google</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="name_text">Name</string>
+
+    <!-- App Content -->
+    <string name="location_word">Location</string>
+    <string name="find_doctor_text">Doctor</string>
+    <string name="search_text">Search</string>
+    <string name="home_text">Home</string>
+
+    <string name="profile_text">Profile</string>
+    <string name="setting_text">Setting</string>
+    <string name="log_out_text">Log Out</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

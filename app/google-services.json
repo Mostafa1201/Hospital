@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151415083950",
+    "firebase_url": "https://hospital-140e9.firebaseio.com",
+    "project_id": "hospital-140e9",
+    "storage_bucket": "hospital-140e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151415083950:android:80a4c110a200b83d",
+        "android_client_info": {
+          "package_name": "com.example.ospidalia2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151415083950-eiqpok6oqrko17vd4erqpd8tue0ng8e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ospidalia2",
+            "certificate_hash": "7ca7aa070787c78ac5d293909e9c44a223121512"
+          }
+        },
+        {
+          "client_id": "151415083950-66g2lr9bjemdgmaric3e3assc9ip2o0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxe1LSS8pRKMciktF2zfHW-hCyqW6Owd4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151415083950-66g2lr9bjemdgmaric3e3assc9ip2o0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textSize="36sp"
+        />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+       <TextView
+           android:id="@+id/home_button1"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:text="@string/home_text"
+           android:gravity="center"
+           android:clickable="true"
+           android:textSize="16sp"
+           android:drawableTop="@drawable/home"
+           android:layout_weight="1"
+
+           />
+
+        <TextView
+            android:id="@+id/location_button1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/location_word"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:drawableTop="@drawable/locationicon"
+            android:layout_weight="1"
+        />
+
+        <TextView
+            android:id="@+id/doctor_button1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/find_doctor_text"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:drawableTop="@drawable/stethoscopeicon"
+            android:layout_weight="1"
+
+        />
+
+        <TextView
+            android:id="@+id/search_button1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/search_text"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:drawableTop="@drawable/searchicon"
+            android:layout_weight="1"
+
+        />
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+</LinearLayout>
