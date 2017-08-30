@@ -8,19 +8,17 @@ public class Patient {
     String mail;
     String password;
     String name;
-    String date;
+    String gender;
 
     public Patient() {
     }
 
-
-    public Patient(String mail, String password, String name, String date) {
+    public Patient(String mail, String password, String name, String gender) {
         this.mail = mail;
         this.password = password;
         this.name = name;
-        this.date = date;
+        this.gender = gender;
     }
-
 
     public String getMail() {
         return mail;
@@ -46,11 +44,11 @@ public class Patient {
         this.name = name;
     }
 
-    public String getDate() {
-        return date;
+    public String getGender() {
+        return gender;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 }

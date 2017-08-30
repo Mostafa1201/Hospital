@@ -6,19 +6,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     >
-
+<!--
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HOME"
         android:textSize="36sp"
         />
-
+-->
 
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <LinearLayout
+        android:weightSum="4"
+        android:layout_above="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <EditText
+            android:id="@+id/patientPost"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/postButton"
+            android:text="Post"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -77,6 +96,14 @@
 
 
     </LinearLayout>
+    <!-- android:focusable="true" to make a list view item clickable -->
+    <ListView
+        android:id="@+id/listViewPatients"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
 
 </LinearLayout>
